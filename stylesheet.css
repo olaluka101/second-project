@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* this is the header of the website*/
+.first_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    height: 100px;
+    
+}
+.logo{
+    margin-right: 60%;
+}
+.after_logo{
+    margin-left: 0;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.after_logo > a{
+    margin: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* this is the website hero section area*/
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    gap: 20px;
+    height: 450px;
+    background-image: url(hero_second\ project.jpg);
+}
+
+.hero_one{
+    font-size: 37px;
+    background-color: gainsboro;
+}
+.hero_two{
+    background-color: gainsboro;
+    font-size: 22px;
+    width: 800px;
+    text-align: center;
+}
+.hero_tree > button{
+    width: 240px;
+    height: 60px;
+    margin-top: 40px;
+    background-color: pink;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 3px 4px 5px;
+    border-radius: 20px;
+}
+
+/*this is the mission statement area with it image*/
+
+.our_mission{
+    display: flex;
+    margin-top: 170px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    height: 400px;
+}
+
+.mis_container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    line-height: 30px;
+    text-align: center;
+    height: 500px;
+    margin-top: 35px;
+}
+.mis_container > h1{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.mis_container > h4{
+    font-weight: 700;
+    font-size: 23px;
+    width: 350px;
+}
+.mis_container > p{
+    font-size: 23px;
+}
+.mis_image{
+    width: 500px;
+    height: 500px;
+}
+.mis_image > img{
+    max-width: 100%;
+    height: 500px;
+    border-radius: 30px;
+    
+}
